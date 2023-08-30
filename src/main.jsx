@@ -12,6 +12,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 // Routes (Pages)
 import Home from './routes/Home.jsx';
 import Gallery from './routes/Gallery.jsx';
+import VideoPage from './routes/VideoPage';
 
 // Paths
 import { routes } from './assets/data/routes.js';
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
 			{
 				path: `${routes[1].path}`,
 				element: <Gallery />,
+			},
+			{
+				path: `${routes[2].path}`,
+				element: <VideoPage />
 			},
 		],
 	},
