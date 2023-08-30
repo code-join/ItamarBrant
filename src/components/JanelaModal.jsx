@@ -38,10 +38,10 @@ const JanelaModal = ({ show, fechaModal }) => {
 				<Modal.Body>
 					<div className="wpp">
 						<a href="#" id="wpp1" onClick={sendMessageWpp}>
-							<FaWhatsapp className="fa-wpp"/> (xx) xxxxx-xxxx
+							<FaWhatsapp className="fa-wpp"/> (31) 99992-5033
 						</a>
 						<a href="#" id="wpp2" onClick={sendMessageWpp}>
-							<FaWhatsapp className="fa-wpp"/> (xx) xxxxx-xxxx
+							<FaWhatsapp className="fa-wpp"/> (31) 99754-7459
 						</a>
 					</div>
 				</Modal.Body>
