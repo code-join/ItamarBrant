@@ -26,5 +26,14 @@
 	"prettier.tabWidth": 2,
 	"prettier.semi": true,
 	"prettier.jsxSingleQuote": false,
-	"cSpell.words": ["itamar", "spotify", "Whatsapp", "youtube", "Youtube"]
+	"cSpell.words": [
+		"Brantoficial",
+		"Deezer",
+		"itamar",
+		"spotify",
+		"Whatsapp",
+		"youtube",
+		"Youtube",
+		"Itunes",
+	]
 }

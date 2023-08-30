@@ -4,7 +4,7 @@
 }
 
 #player::-webkit-media-controls-panel {
-	background: rgba(41, 41, 41, 0.697);
+	background: rgb(240, 215, 167);
 	color: white;
 }
 

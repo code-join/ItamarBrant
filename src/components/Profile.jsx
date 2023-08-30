@@ -10,7 +10,7 @@ const Profile = () => {
 			<a href={images[0].src} target="_blank" rel="noreferrer">
 				<img src={images[0].src} alt="Avatar" />
 			</a>
-			<p>@subtitulo</p>
+			<p>@ItamarBrantoficial</p>
 		</div>
 	);
 };

@@ -5,12 +5,16 @@ import './LinksSocials.css';
 import { socials } from '../assets/data/socials.js';
 
 // Icons
-import { FaYoutube, FaSpotify, FaInstagram, FaFacebook } from 'react-icons/fa';
+import { FaYoutube, FaSpotify, FaItunesNote, FaDeezer, FaInstagram, FaFacebook } from 'react-icons/fa';
+import { SlSocialSpotify } from 'react-icons/sl'
 
 
 const components = {
 	Youtube: <FaYoutube />,
 	Spotify: <FaSpotify />,
+	SlSocialSpotify: <SlSocialSpotify />,
+	FaItunesNote: <FaItunesNote />,
+	FaDeezer: <FaDeezer />,
 	Instagram: <FaInstagram />,
 	Facebook: <FaFacebook />,
 };

@@ -4,9 +4,13 @@ import './Footer.css';
 const Footer = () => {
 	const email = 'codejoin.dev@gmail.com';
 	const subject = 'Agregador de Links';
+	const msg = `Para criar seu agregador de links customizado, entre em contato com:
+	<em>(31) 99183-8573 / (21) 98016-7955<em>`;
 
 	const sendEmail = () => {
-		const url = `mailto:${email}?subject=${encodeURIComponent(subject)}`;
+		const url = `mailto:${email}?subject=${encodeURIComponent(
+			subject
+		)}&body=${encodeURIComponent(msg)}`;
 		window.open(url, '_blank');
 	};
 
