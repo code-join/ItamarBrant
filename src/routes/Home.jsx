@@ -13,6 +13,7 @@ import LinksSocials from '../components/LinksSocials';
 import Music from '../components/Music';
 import Profile from '../components/Profile';
 import JanelaModal from '../components/JanelaModal';
+import Video from '../components/Video';
 
 const Home = () => {
 	const [show, setShow] = useState(false);
@@ -25,6 +26,7 @@ const Home = () => {
 			<Profile />
 			<Music />
 			<Fotos />
+			<Video />
 			<LinksJobs />
 			<Contato abrirModal={abrirModal} />
 			<JanelaModal show={show} fechaModal={fechaModal} />

@@ -9,4 +9,9 @@ export const routes = [
 		name: 'Fotos',
 		path: '/ItamarBrant/fotos',
 	},
+	{
+		id: 3,
+		name: 'Video',
+		path: '/ItamarBrant/video',
+	},
 ];
